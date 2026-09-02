@@ -4,7 +4,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 from gtts import gTTS
 
-TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")  # التوكن من Render
+TOKEN = os.environ.get("8771453541:AAFflhfnPdqHTglC-928RDkuCunEZfq2LHc")  # التوكن من Render
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("🎙️ أرسل لي نصاً وسأحوله إلى صوت!")
